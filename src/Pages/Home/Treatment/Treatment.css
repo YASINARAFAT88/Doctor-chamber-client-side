@@ -1,0 +1,30 @@
+.treatment-cart{
+    background-color: rgba(0, 128, 0, 0.799);
+    width: 300px;
+    border-radius: 17px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 5px 5px rgb(130, 104, 104);
+}
+.treatment-cart img{
+    width: 200px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 100%;
+    
+}
+.treatment-cart h3{
+    margin: 0;
+}
+.treatment-cart p {
+    padding: 20px;
+    margin: 0;
+}
+.see-detail{
+    height: 25px;
+    margin: 10px;
+    
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}

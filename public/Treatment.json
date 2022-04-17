@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name":"Nose treatment",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur veritatis ad error a? Repellendus quaerat blanditiis quisquam sed tenetur voluptatibus recusandae ex iusto,",
+        "img": "https://img.freepik.com/free-photo/concept-skin-care-with-nose-with-dots_185193-80177.jpg?size=626&ext=jpg&ga=GA1.2.689445639.1648242360"
+    },
+    {
+        "id": 2,
+        "name":"Ear treatment",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur veritatis ad error a? Repellendus quaerat blanditiis quisquam sed tenetur voluptatibus recusandae ex iusto,",
+        "img": "https://img.freepik.com/free-photo/close-up-physician-using-otoscope-ear-consultation-with-patient-woman-otologist-checking-infection-with-otolaryngology-instrument-medical-visit-during-coronavirus-pandemic_482257-38496.jpg?t=st=1650131165~exp=1650131765~hmac=46986b9f0f5d5816eaefc66618ecbec38a523de9c219fc9771dd5a506fa3f7de&w=900"
+    },
+    {
+        "id": 3,
+        "name":"Throat treatment",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur veritatis ad error a? Repellendus quaerat blanditiis quisquam sed tenetur voluptatibus recusandae ex iusto,",
+        "img": "https://img.freepik.com/free-photo/young-medic-palpating-neck-senior-woman-elderly-patient-visiting-doctor-hospital-checking-thyroid-throat-touching-health-clinic-healthcare-specialist-medicare-treatment-medical-concept_482257-9991.jpg?t=st=1650131370~exp=1650131970~hmac=cb2eacaf6c6b826b716131eaa423b7dd87c0a16a2c80bd5026fc712253f0738b&w=900"
+    }
+]

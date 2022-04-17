@@ -1,0 +1,19 @@
+.treatment-title{
+    text-align: center;
+    color: green;
+    box-shadow: 10px 5px 5px rgb(137, 104, 104);
+    
+}
+.treatment-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .treatment-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
