@@ -8,7 +8,7 @@ const Treatment = ({treatment}) => {
         <div className='treatment-cart'>
 
             <img  src={img} alt="" />
-            <h3>Name: {name}</h3>
+            <h4>Name: {name}</h4>
             <p>{description}</p>
             
             <button className='see-detail'>Detail {name}</button>

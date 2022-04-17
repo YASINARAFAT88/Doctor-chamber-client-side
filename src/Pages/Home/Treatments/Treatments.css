@@ -1,5 +1,8 @@
 .treatment-title{
     text-align: center;
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 35px;
     color: green;
     box-shadow: 10px 5px 5px rgb(137, 104, 104);
     
@@ -9,6 +12,7 @@
     grid-template-columns: repeat(3, 1fr);
     color: white;
     grid-gap: 10px;
+    margin-bottom: 35px;
 }
 
 @media screen and (max-width: 576px) {
