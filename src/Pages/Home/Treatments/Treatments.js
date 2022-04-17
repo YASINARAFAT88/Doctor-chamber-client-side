@@ -12,7 +12,7 @@ const Treatments = () => {
     },[])
 
     return (
-        <div>
+        <div id='treatment'>
             <h1 className="treatment-title">All Treatments</h1>
           <div className="treatment-container">
           {

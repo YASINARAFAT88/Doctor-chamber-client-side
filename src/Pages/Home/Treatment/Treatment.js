@@ -1,9 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Treatment.css'
 
 
 const Treatment = ({treatment}) => {
-    const {img, name, description} = treatment;
+    const {img, name, description, id} = treatment;
+    const navigate = useNavigate();
+    const navigateSeeTreatment = id =>{
+    navigate(`treatment/${id}`)
+    }
     return (
         <div className='treatment-cart'>
 
@@ -11,7 +16,7 @@ const Treatment = ({treatment}) => {
             <h4>Name: {name}</h4>
             <p>{description}</p>
             
-            <button className='see-detail'>Detail {name}</button>
+            <button onClick={()=> navigateSeeTreatment(id)} className='see-detail'>Detail {name}</button>
         </div>
     );
 };
