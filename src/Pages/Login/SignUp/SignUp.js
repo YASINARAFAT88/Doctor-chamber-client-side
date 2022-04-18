@@ -32,7 +32,7 @@ const SignUp = () => {
         createUserWithEmailAndPassword(email, password)
     }
     if(user){
-        navigate('/about')
+        navigate('/home')
     }
     return (
         <div className='container w-50 mx-auto mb-5 mt-5 rounded-3 shadow p-3 mb-5 bg-body rounded'>
