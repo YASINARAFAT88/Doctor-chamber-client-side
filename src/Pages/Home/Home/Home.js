@@ -14,7 +14,7 @@ const Home = () => {
                 </div>
                 <div className="content">
                     <h2>Doctor chamber</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minima ea voluptatum nemo cumque cum molestias, </p>
+                    <p>The Department of Obstetrics Gynaecology of Amar Hospital provides comprehensive services to women in the treatment and management of </p>
                     <button className='btnn'>Visite</button>
                 </div>
                 <div className="doctot-img">
