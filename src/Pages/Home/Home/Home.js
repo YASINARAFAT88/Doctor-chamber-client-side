@@ -3,6 +3,7 @@ import './Home.css'
 import Treatments from '../Treatments/Treatments';
 import img from './bag4.png'
 import doctor from './doctor_1.png'
+import SignUp from '../../Login/SignUp/SignUp';
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                 </div>
                 <div className="content">
                     <h2>Doctor chamber</h2>
-                    <p>The Department of Obstetrics Gynaecology of Amar Hospital provides comprehensive services to women in the treatment and management of </p>
+                    <p>The Department of Obstetrics Gynaecology of Amar Chamber provides comprehensive services to women in the treatment and of the day! </p>
                     <button className='btnn'>Visite</button>
                 </div>
                 <div className="doctot-img">
@@ -23,6 +24,15 @@ const Home = () => {
                 </div>
             </div>
             <Treatments></Treatments>
+            <h1 className="treatment-title">Sign Up Please!!</h1>
+            <div className='signup'>
+                <div className='form'>
+                    <SignUp></SignUp>
+                </div>
+                <div>
+                   <img src={doctor} alt="" />
+                </div>
+            </div>
         </div>
     );
 };

@@ -62,9 +62,31 @@
 .banner-container .banner .doctot-img img{
     width: 100%;
 }
+.treatment-title{
+    text-align: center;
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 10px;
+    color: green;
+    box-shadow: 10px 5px 5px rgb(137, 104, 104);
+    
+}
+.signup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
 
 @media screen and (max-width: 768px) {
     .banner-container .banner .doctot-img{
         display: none;
+    }
+    .signup{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+    }
+    .signup img{
+        width: 100%;
     }
 }
