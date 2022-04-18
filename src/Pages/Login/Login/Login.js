@@ -4,6 +4,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../../Shared/Loading/Loading';
 
 const Login = () => {
 const location = useLocation()
@@ -17,6 +18,7 @@ let from = location.state?.from?.pathname || "/"
         error,
       ] = useSignInWithEmailAndPassword(auth);
 
+      
     const emailRef = useRef('')
     const passwordRef = useRef('')
     const navigate = useNavigate()
@@ -31,6 +33,7 @@ let from = location.state?.from?.pathname || "/"
     if(user){
         navigate(from, {replace: true});
     }
+    
     const handleSignUp = event =>{
         navigate('/signup')
     }
@@ -51,7 +54,7 @@ let from = location.state?.from?.pathname || "/"
                     <Form.Check className='text-success' type="checkbox" label="Check me out" />
                 </Form.Group>
                 <Button variant="success" type="submit">
-                    Submit
+                    Log in
                 </Button>
             </Form>
             <p className='mt-3'>New to Doctor Chamber? <Link to='/signup' className='text-danger pe-auto text-decoration-none' onClick={handleSignUp}>Please Sign Up</Link></p>

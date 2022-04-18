@@ -1,5 +1,6 @@
 import React from 'react';
 import react, { useEffect, useState } from 'react'
+import CheckOut from '../../CheckOut/CheckOut/CheckOut';
 import Treatment from '../Treatment/Treatment';
 import './Treatments.css'
 
@@ -21,6 +22,7 @@ const Treatments = () => {
                treatment={treatment}
                ></Treatment>)
            }
+          
           </div>
         </div>
     );
